@@ -53,6 +53,12 @@ rainy,75.0,80.0,false,yes
 8) Click on edit button which shows employee table on weka.
 
 ### OUTPUT:
+Training Data Set -> Employee Table
+
+![m21](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/c20b6e6d-bec7-4e4e-9c70-46ecca9491d6)
+
+Training Data Set-> Weather Table
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/b20883f8-853e-450c-a1d6-ec0afb6361ad)
 
 
 
@@ -76,6 +82,14 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Employee Table after adding new attribute ADDRESS:
+
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/0fbe88f8-2a1b-4327-93e6-f1a967d57e1a)
+
+Weather Table after adding new attribute CLIMATE:
+
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/abe0501b-f886-4383-9bc1-0b2d7b10e865)
+
 ### 2) Remove -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -92,6 +106,15 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+Employee Table after removing attributes SALARY, GENDER:
+
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/f21530ee-8fd5-49a9-9a2e-c24cebf702d3)
+
+Weather Table after removing attributes WINDY, PLAY:
+
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/fbd50480-d999-4d76-b134-470e555d5da0)
+
+
 ### Normalize -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -107,5 +130,14 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+
+Employee Table after Normalizing ID, EXP, PHONE:
+
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/33dc08a5-45c8-4f3b-8d3e-9e701e3dfebe)
+
+Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+
+![image](https://github.com/Sharmilasha/WDM_EXP1/assets/94506182/2541abd8-8f5a-4f7b-bb68-291b4a4ef700)
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
